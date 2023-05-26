@@ -1,0 +1,14 @@
+h1{
+    
+    color:rgb(113, 158, 255);
+    font-family: sans-serif;
+    text-align: center;
+}
+#map{
+    height: 400px;
+    width:800px;
+    margin: auto
+}
+body{
+    background-color: rgb(47, 49, 54);
+}

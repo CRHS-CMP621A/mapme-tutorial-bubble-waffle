@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
     <link href="style.css" rel="stylesheet" />
-    <title>GeoLocation API - JS Tutorial</title>
+        <title>GeoLocation API - JS Tutorial</title>
+    <script defer src="script.js"></script>
   </head>
 
   <body>
     <h1>GeoLocation API Tutorial</h1>
+    <div id="map"></div>
+
+    <ul class="workouts">
+      <form class="form hidden">
+        <div class="form__row">
+          <label class="form__label">Type</label>
+          <select class="form__input form__input--type">
+            <option value="running">Running</optiion>
+            <option value="running">Cycling</optiion>
+          </select>
+        </div>
+      </form>
+    </ul>
+    
   </body>
 </html>
